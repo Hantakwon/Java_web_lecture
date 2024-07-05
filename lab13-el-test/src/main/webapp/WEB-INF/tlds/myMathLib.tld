@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jakartaee:taglib version="3.1" xmlns:jakartaee="https://jakarta.ee/xml/ns/jakartaee" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-jsptaglibrary_3_1.xsd ">
+  <jakartaee:tlib-version>0.1</jakartaee:tlib-version>
+  <jakartaee:short-name>my_math_library</jakartaee:short-name>
+  <jakartaee:uri>http://com.wplab.taglib.mymathlib</jakartaee:uri>
+  <jakartaee:function>
+  	<jakartaee:description>square root function</jakartaee:description>
+  	<jakartaee:name>squareroot</jakartaee:name>
+  	<jakartaee:function-class>java.lang.Math</jakartaee:function-class>
+  	<jakartaee:function-signature>double sqrt(double)</jakartaee:function-signature>
+  </jakartaee:function>
+  <jakartaee:function>
+    <jakartaee:description>interval sum function</jakartaee:description>
+    <jakartaee:name>intervalsum</jakartaee:name>
+    <jakartaee:function-class>com.wplab.eltest.MyMath</jakartaee:function-class>
+    <jakartaee:function-signature>int intervalSum(int, int)</jakartaee:function-signature>
+  </jakartaee:function>
+  <jakartaee:function>
+    <jakartaee:description>compare char</jakartaee:description>
+    <jakartaee:name>comparechar</jakartaee:name>
+    <jakartaee:function-class>com.wplab.eltest.MyMath</jakartaee:function-class>
+    <jakartaee:function-signature>boolean compareChar(int, char)</jakartaee:function-signature>
+  </jakartaee:function>
+</jakartaee:taglib>
